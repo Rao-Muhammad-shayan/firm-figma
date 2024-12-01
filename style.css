@@ -199,14 +199,14 @@ div.headers {
   position: relative;
   cursor: pointer;
 }
-h1::after{
+.content>h1::after{
   content: '';
   width: 120px;
   height: 6px;
   background:#DB4444;
   position: absolute;
   top: 3.5rem;
-  transform:translatex(-8.5rem);
+  transform: translate(-8.5rem);
 }
  .fa-star{
   color: #FFAD33;
